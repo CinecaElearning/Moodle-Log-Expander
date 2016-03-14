@@ -39,6 +39,8 @@ class Controller extends PhpObj {
         '\core\event\user_created' => 'Event',
         '\core\event\user_enrolment_created' => 'Event',
         '\mod_scorm\event\sco_launched' => 'ScormLaunched',
+        '\core\event\course_completed' => 'Event',
+        // '\core\event\course_completed' => 'CourseCompleted',
     ];
 
     /**

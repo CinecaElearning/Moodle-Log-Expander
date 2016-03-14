@@ -13,6 +13,7 @@ class TestRepository extends MoodleRepository {
          $response = [
             'id' => '1',
             'username' => 'test_username',
+            'email' => 'test@teset.com',
             'lang' => 'en',
             'fullname' => 'test_fullname',
             'summary' => 'test_summary',
